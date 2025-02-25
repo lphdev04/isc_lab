@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.shape {
+  width: 600px;
+  height: 250px;
+  transform: skewX(75deg) rotate(-20deg);
+}
