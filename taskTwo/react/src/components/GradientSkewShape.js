@@ -30,12 +30,12 @@ export default function GradientSkewShape() {
   }, [gradients.length]);
 
   return (
-    <div
+    <canvas
       className="shape"
       style={{
         background: gradients[colorIndex],
         clipPath: `polygon(0% 0%, 100% 0%, 100% ${percentage}%, 0% ${percentage}%)`,
       }}
-    ></div>
+    ></canvas>
   );
 }
